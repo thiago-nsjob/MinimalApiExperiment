@@ -14,9 +14,6 @@ builder.Services.ConfigureSwagger();
 builder.Services.ConfigureAuth(builder.Configuration);
 
 var app = builder.Build();
-
-
-//Use
 app.SetupSwagger();
 app.UseHttpsRedirection();
 app.UseAuthorization();

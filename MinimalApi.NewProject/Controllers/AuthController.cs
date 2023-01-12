@@ -29,7 +29,7 @@ public class AuthController : ControllerBase
     /// <returns></returns>
     [AllowAnonymous]
     [HttpPost("token",Name = "Generate Token")]
-    public async Task<IActionResult> GetToken()
+    public async Task<IActionResult> GenToken()
     {
           // generate token that is valid for 7 days
         var tokenHandler = new JwtSecurityTokenHandler();

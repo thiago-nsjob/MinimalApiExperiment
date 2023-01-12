@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinimalApi.NewProject", "./MinimalApi.NewProject/MinimalApi.NewProject.csproj", "{D2EEFECB-1323-41AB-AAEF-1D6347E8D2DE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinimalApi.NoControllers", "MinimalApi.NoControllers\MinimalApi.NoControllers.csproj", "{DF6C3E6B-0C19-470A-B055-D338B611F906}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{D2EEFECB-1323-41AB-AAEF-1D6347E8D2DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D2EEFECB-1323-41AB-AAEF-1D6347E8D2DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D2EEFECB-1323-41AB-AAEF-1D6347E8D2DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF6C3E6B-0C19-470A-B055-D338B611F906}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF6C3E6B-0C19-470A-B055-D338B611F906}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF6C3E6B-0C19-470A-B055-D338B611F906}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF6C3E6B-0C19-470A-B055-D338B611F906}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
